@@ -1,0 +1,436 @@
+* body {
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(./imagenes/FONDO.jpg);
+    background-size: 100%;
+  }
+  
+  /*PORTADA*/
+  
+ 
+  .titulo_primero {
+    text-align: center;
+    position: relative;
+    margin: 50px 0px;
+    color: #2c2c2c;
+    font-size: 28px;
+    font-family: 'Great Vibes', cursive;
+    
+  
+  }
+
+  
+  .primer_span {
+    color: #6f6f6f;
+  }
+  
+  .container {
+    width: 85%;
+    max-width: 400px;
+    min-width: 20px;
+    margin: auto;
+   
+    
+  }
+  
+  img {
+    width: 100%;
+    margin-right: 50px;
+    box-shadow: 0px 3px 5px rgba(rgb(218, 208, 208), rgb(38, 39, 38), brgb(65, 65, 66) alpha);
+  }
+  
+  /*CUENTA REGRESIVA*/
+  
+  .container {
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+  }
+  
+  .countdown {
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+    flex-wrap: wrap;
+  }
+  
+  .countdown span {
+    color: #575656;
+    font-size: 15px;
+  }
+  
+  .countdown div {
+    display: grid;
+    place-items: center;
+    padding: 10px;
+  }
+  
+  .reloj {
+    display: grid;
+    place-items: center;
+    border: solid 1px rgb(241, 241, 241);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    color: rgb(245, 245, 245);
+    font-size: 3rem;
+    font-weight: bold;
+    background-color: #7b7b79;
+  }
+  
+  .final-sms {
+    position: absolute;
+    left: 45;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: grid;
+    place-items: center;
+    transform: translateY(-100%);
+    transition: ease-in-out 0.5s;
+    background-color: rgb(112, 111, 111);
+  }
+  
+  .final-sms h2 {
+    text-align: center;
+    font-size: 100px;
+    color: rgb(247, 241, 212);
+  }
+  
+  @media (max-width: 730px) {
+    
+
+    .container {
+      width: 75%;
+      margin: auto;
+      margin-top: 15%;
+    
+      
+    }
+    .final-sms {
+      position: absolute;
+      left: 45;
+      right: 45;
+      top: 0;
+      bottom: 0;
+      display: grid;
+      place-items: center;
+      transform: translateY(-100%);
+      transition: ease-in-out 0.5s;
+      background-color: rgb(155, 53, 53);
+    }
+ 
+    .reloj {
+      float: left;
+      height: 40px;
+      width: 40px;
+      font-size: 18px;
+      font-weight: bold;
+      background-image: url(./imagenes/picmix.com_1113042.gif);
+      background-size: 100%;
+      
+    }
+    .preparate {
+      font-family: 'Julius Sans One', sans-serif; ;
+      font-size: 20px;
+      font-weight: bold;
+      color: #282828;
+      text-align: center;
+      margin-top: 10%;
+    
+  
+    }
+    
+    /*reloj*/
+
+    .container {
+      width: 80%;
+      min-height: 50vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      margin-top: -10%;
+    }
+    .countdown {
+      margin-top: -25%;
+      display: flex;
+      justify-content: space-evenly;
+      width: 90%;
+      flex-wrap: wrap;
+    }
+  
+  
+    
+ h5{
+  color: #ffffff;
+  font-family: 'Sacramento', cursive;
+  font-size: 10px;
+  text-align: center;
+
+ }
+  
+  
+  .box__copyright {
+      max-width: 1200px;
+      padding: 0px 40px;
+      text-align: center;
+      margin-top: 30%;
+  }
+  
+  .box__copyright p{
+      margin-top: 20px;
+      color: #8d8c8c;
+      font-size: 10px;
+  }
+  
+  .box__copyright hr{
+      border: none;
+      height: 3px;
+      background-color: #e8de88c7;
+  }
+  .box__copyright img{
+    width: 10%;
+  }
+  
+  .espero{
+      font-size: 22px;
+      text-align: center;
+      color: #565656;
+      margin: 10%;
+      font-family: 'Rochester', cursive;
+  }
+
+  .whatsap{
+    width: 30%;
+    margin-left: 35%;
+  }
+  
+  .click {
+    padding: 2px 10px;
+    font-size: 16px;
+    border: none;
+    color: rgb(110, 108, 108);
+    background-image: url(./imagenes/DORADO.jpg);
+    background-size: 100%;
+    border-radius: 7px;
+    box-shadow: 2px 2px 30px -5px rgb(123, 123, 123);
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Julius Sans One', sans-serif; 
+
+  }
+  }
+  
+  
+  
+  .click_2{
+    padding: 2px 12px;
+    font-size: 16px;
+    border: none;
+    color: rgb(92, 92, 92);
+    background-image: url(./imagenes/DORADO.jpg);
+    background-size: 100%;
+    border-radius: 7px;
+    box-shadow: 2px 2px 30px -5px rgb(137, 133, 136);
+    cursor: pointer;
+    margin-left: 18%;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Julius Sans One', sans-serif; 
+  }
+
+  .boton2{
+    margin-top: 10%;
+          }
+  .boton{
+    margin-right: 14%;
+  }
+  
+  /*SECCION*/
+  
+  .audio{
+    width: 40%;
+    height: 20px;
+    margin-left: 30%;
+    background: rgb(255, 249, 212);
+    color: #8d8d8d;
+    margin-top: -30%;
+    
+}
+.musica{
+  width: 15%;
+  margin-left: 60%;
+  margin-top: -17%;
+}
+  .info h4 {
+ 
+    text-align: center;
+    color: #1e1e1e;
+    font-size: 24px;
+    font-family: 'Great Vibes', cursive;
+    margin: 10%;
+    
+  }
+  .parrafo{
+    
+    text-align: center;
+    color: #393939;
+    font-size: 24px;
+    font-family: 'Great Vibes', cursive;
+    
+    
+  }
+  .card-text{
+    text-align: center;
+    color: #525252;
+    font-size: 15px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: bold;
+    text-align: center;
+  }
+.card-title{
+  font-size: 160%;
+}
+.card{
+  margin-left: 15%;
+  margin-top: -5%;
+  background-image: url(./imagenes/papel.jpg);
+  background-size: 100%;
+
+}
+
+
+.corazon{
+  width: 40%;
+  margin-left:30%;
+  margin-top: -57%;
+}
+.corona{
+  width: 30%;
+  margin-left: 35%;
+  margin-top: -45%;
+}
+.copas{
+  width: 70%;
+  margin-left: 16%;
+}
+main{
+  margin-top: 42%;
+}
+
+ 
+  .espero{
+    margin: 30%;
+    font-family: 'Great Vibes', cursive;
+    font-size: 25px;
+    color: #434343;
+
+  }
+  
+  
+  .click {
+    padding: 2px 10px;
+    margin-top: -10px;
+    font-size: 18px;
+    font-weight: 1200;
+    border-radius: 7px;
+    color: #616161;
+    background-image: url(./imagenes/DORADO.jpg);
+    background-size: 100%;
+    cursor: pointer;
+    margin-left: 25%;
+    box-shadow: 2px 2px 5px rgba(120, 120, 120, 0.5);
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  @media (max-width: 730px) {
+  .logo{
+    width: 44%;
+    margin-left: 55%;
+    margin-top: -41%;
+  }
+    .tecla a {
+      text-decoration: none;
+      width: 30px;
+      color: #d1a2e5;
+    }
+    
+    .tecla {
+    margin-top: -5%;
+     margin-left: 50%;
+    }
+   
+    
+    .box__copyright {
+      max-width: 1200px;
+      padding: 0px 40px;
+      text-align: center;
+      margin-top: -20%;
+      
+    }
+  
+    .box__copyright p {
+      margin-top: 20px;
+      color: #787878;
+      font-size: 10px;
+      text-align: center;
+    }
+  
+    .box__copyright a {
+      text-decoration: none;
+      color: #7a7a7a;
+    }
+  }
+  
+  @media (min-width: 1024px){ 
+  
+  
+
+  .tecla {
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #f2f2f2;
+    color: #ce4141;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+  }
+  
+  .box__copyright {
+    max-width: 1200px;
+    padding: 0px 40px;
+    text-align: center;
+  }
+
+  .box__copyright p {
+    margin-top: 20px;
+    color: #b4b4b4;
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .box__copyright a {
+    text-decoration: none;
+    color: #f2eeee;
+  }
+  
+   }
+   
+  
